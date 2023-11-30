@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick's Mobile Mechanic</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Rick's Mobile Mechanic</h1>
+        <p>Bringing the shop to your doorstep since 2019</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#quote">Request a Quote</a></li>
+            <li><a href="#reviews">Customer Reviews</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Engine Diagnostics</li>
+            <li>Brake Repairs</li>
+            <li>Transmission Services</li>
+            <li>Oil Change</li>
+            <li>Electrical Repairs</li>
+            <!-- Add more services -->
+        </ul>
+    </section>
+
+    <section id="quote">
+        <h2>Request a Quote</h2>
+        <form id="quoteForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="service">Select Service:</label>
+            <select id="service" name="service" required>
+                <option value="Engine Diagnostics">Engine Diagnostics</option>
+                <option value="Brake Repairs">Brake Repairs</option>
+                <option value="Transmission Services">Transmission Services</option>
+                <!-- Add more options -->
+            </select>
+
+            <button type="submit">Get a Quote</button>
+        </form>
+    </section>
+
+    <section id="reviews">
+        <h2>Customer Reviews</h2>
+        <p>Over 60 reviews on Google with a 4.1 rating</p>
+        <!-- Add a carousel or list of reviews -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Reach out to us for any inquiries or appointments</p>
+        <!-- Add contact form or information -->
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Rick's Mobile Mechanic</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
